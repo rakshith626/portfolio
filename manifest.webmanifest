@@ -1,0 +1,16 @@
+{
+"name":"calculatorweb",
+"short_name":"calculatorweb",
+"start_url":"/",
+"display":"standalone",
+"background_color":"blue",
+"description":"A simple calculator app",
+"icons":[{
+"src":"/home/swecha/Desktop/calculator.jpg",
+"sizes":"15*15",
+"type":images.jpg",
+},{
+"src":"/home/swecha/Desktop/pioneer.jpg",
+"sizes":"250*250",
+"type":images.jpg",
+}],
