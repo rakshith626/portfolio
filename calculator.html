@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>swecha</title>
+<link rel="manifest" href="/manifest.webmanifest">
 </head>
 <body style="background-color:skyblue">
 <h1 align="center">calculator</h1>
@@ -26,6 +27,11 @@
 <input type="button" value="%" onClick="document.calculator.ans.value+='%'" style="background-color:pink"><br>
 <input type="button" value="." onClick="document.calculator.ans.value+='.'" style="background-color:pink">
 <input type="reset" value="c" style="background-color:pink">
+<script>
+   if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('simple.js');
+} 
+</script>
 <br> 
 </form>
 </div>
